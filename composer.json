@@ -1,0 +1,14 @@
+{
+    "name": "orochi-poc/vulnerable-web-application",
+    "description": "Deliberately vulnerable dependencies for the Orochi auto-PR proof of concept. Never deploy.",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.0",
+        "phpmailer/phpmailer": "6.4.1"
+    },
+    "config": {
+        "audit": {
+            "block-insecure": false
+        }
+    }
+}
