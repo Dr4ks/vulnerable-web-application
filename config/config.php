@@ -1,6 +1,6 @@
 <?php
 $_sv = "localhost";
 $_user = "root";
-$_pass = "";
+$_pass = "database_Password";
 $dbnamegi = "GiVuln";
 ?>
